@@ -24,3 +24,8 @@ SELECT * FROM usuarios;
 -- Eliminar un usuario de la tabla
 DELETE FROM usuarios WHERE id = 2;
 
+-- Actualizar un usuario de la tabla o varios
+UPDATE usuarios SET edad = 24 WHERE id = 1;
+
+-- Buscar usuario por edad
+SELECT * FROM usuarios WHERE edad = 25; 
